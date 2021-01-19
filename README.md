@@ -50,14 +50,8 @@ namespace MeshPoints
             GH_Point p2 = new GH_Point();
             GH_Point p3 = new GH_Point();
             GH_Point p4 = new GH_Point();
-
-            // List<GH_Point> vertices = List<GH_Point>(); Combine Kernel with Geometry
-
-  
-
             int nx = 0;
             int ny = 0;
-            
             GH_Structure<GH_Point> pts = new GH_Structure<GH_Point>();
 
             //Input
