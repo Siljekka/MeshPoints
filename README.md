@@ -67,9 +67,9 @@ namespace MeshPoints
                 for (int j = 0; j < nx - 1; j++)
                 {
                     p1 = pts[i][j];
-                    p2 = pts[i][j + 1];
-                    p3 = pts[i][j + nx + 1];
-                    p4 = pts[i][j + nx];
+                    p2 = pts[i + 1][j];
+                    p3 = pts[i + 1][j + 1];
+                    p4 = pts[i][j + 1];
 
                    
                     p1.CastTo<Point3d>(out Point3d p1proxy);
